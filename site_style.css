@@ -6,9 +6,13 @@ pre {
 }
 
 html {
-  max-width: 1000px;
+  max-width: 1010px;
   margin-right: auto;
   margin-left:  auto;
+  background-image: url("Blue-Hills.jpg"); 
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: scroll; 
 }
 
 body {
@@ -17,16 +21,28 @@ body {
   background: fixed;
   background-color: black;
   color: white;
- /* background-image: url("8.1.jpg"); */
+  opacity: 0.7;
   background-attachment: fixed;
+  overflow: hidden;
 }
+/* bit borrowed from the net here pretty clever what they do 
+img.bg {
+  min-width 1024px;
+  min-height 100%;
+  width 100%;
+  height auto;
+  position fixed;
+  top: 0;
+  left: 0;
+}
+*/
 
-/*p {
-*  background-color: #333;
-*  overflow: hidden; 
-*  padding: 16px;
-*  margin: fixed;
-* } 
+/*p.full {
+  background-color: #333;
+  overflow: hidden; 
+  padding: 16px;
+  margin: fixed;
+ } 
 */
 
 /* got to love link underlining and colouring */

@@ -1,2 +1,2 @@
-# xenix286.github.io
+# xenix386.github.io
 website for school and what not 
