@@ -1,0 +1,62 @@
+/* This is the overall style sheet for my site here, the background url is
+ * ok_hand */
+pre {
+  font-family: sans-serif;
+  font-size: 12pt;
+}
+
+html {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left:  auto;
+}
+
+body {
+  font-size 12pt;
+  font-family: sans-serif;
+  background: fixed;
+  background-color: black;
+  color: white;
+ /* background-image: url("8.1.jpg"); */
+  background-attachment: fixed;
+}
+
+/*p {
+*  background-color: #333;
+*  overflow: hidden; 
+*  padding: 16px;
+*  margin: fixed;
+* } 
+*/
+
+/* got to love link underlining and colouring */
+a {
+  color: cyan; 
+  font-weight bold;
+  text-decoration: none;
+}  
+
+a:hover {
+  text-decoration: underline;
+}
+  
+
+hr {
+  color: white;
+}
+
+.topnavi {
+  /* background-color: #333; */   
+  overflow: hidden;
+ 
+}
+
+.topnavi a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: underline;
+  font-size: 12pt;
+}
+ 
